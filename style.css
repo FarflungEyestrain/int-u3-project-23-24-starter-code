@@ -110,6 +110,15 @@ h1 {
     justify-content: center;
 }
 
+.option-six-screen img {
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 /* Style the story opening message */
 .story-opening h1 {
     font-size: 20px;
@@ -149,8 +158,9 @@ button:hover {
 /* Style the screens for option one and option two */
 .option-one-screen,
 .option-two-screen,
-.option-one-end,
-.option-two-end {
+.option-three-screen,
+.option-four-screen,
+.option-five-screen {
     background-color: #000000;
     border: 1px solid #000000;
     padding: 20px;
@@ -163,7 +173,8 @@ button:hover {
 .option-one-screen img,
 .option-two-screen img,
 .option-three-screen img,
-.option-four-screen img {
+.option-four-screen img,
+.option-six-screen img {
     max-width: 100%;
     height: auto;
     margin-bottom: 10px;
@@ -173,7 +184,9 @@ button:hover {
 .option-one-screen h1,
 .option-two-screen h1,
 .option-three-screen h1,
-.option-four-screen h1 {
+.option-four-screen h1,
+.option-five-screen h1,
+.option-six-screen h1 {
     font-size: 20px;
     margin-bottom: 20px;
 }

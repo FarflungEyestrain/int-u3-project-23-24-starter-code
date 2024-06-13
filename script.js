@@ -4,12 +4,14 @@ let image2Button = document.querySelector('.option-two');
 let image3Button = document.querySelector('.option-three');
 let image4Button = document.querySelector('.option-four');
 let image5Button = document.querySelector('.option-five');
+let image6Button = document.querySelector('.option-six');
 let screenOne = document.querySelector('.story-opening');
 let screenTwo = document.querySelector('.option-one-screen');
 let screenThree = document.querySelector('.option-two-screen');
 let screenFour = document.querySelector('.option-three-screen');
 let screenFive = document.querySelector('.option-four-screen');
 let screenSix = document.querySelector('.option-five-screen');
+let screenSeven = document.querySelector('.option-six-screen');
 
 
 
@@ -53,5 +55,12 @@ image5Button.addEventListener('click', function(){
     image4Button.style.display = "none";
     image5Button.style.display = "none";
     screenSix.style.display = "block";
-    screenFour.style.display = "none";
+    screenFive.style.display = "none";
+});
+
+image6Button.addEventListener('click', function(){
+    image4Button.style.display = "none";
+    image6Button.style.display = "block"
+    screenFive.style.display = "none";
+    screenSeven.style.display = "block";
 });
