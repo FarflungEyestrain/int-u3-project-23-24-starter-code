@@ -28,6 +28,11 @@ html {
     src: url('fonts/videotype.ttf') format('truetype');
   }
 /* Style the body with a background color or image if desired */
+img {
+    border: 3px solid rgb(255, 70, 70);
+    margin: 5px;
+    padding: 6px;
+}
 h1 {
     font-family: 'CustomFont2', sans-serif;
     color: rgb(255, 70, 70);
