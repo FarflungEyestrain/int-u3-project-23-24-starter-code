@@ -5,7 +5,8 @@
 .option-two-screen, 
 .option-three-screen, 
 .option-four-screen,
-.option-five-screen  {
+.option-five-screen,
+.option-six-screen  {
    display:none;
 }
 
