@@ -11,31 +11,41 @@
 
 
 /* Feel free to change any of the styling below!*/
-html,
-body {
-    margin: 0;
-    padding: 0;
-}
-
+html {
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+  }
+  @font-face {
+    font-family: 'CustomFont';
+    src: url('fonts/Frijole-Regular.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'CustomFont2';
+    src: url('fonts/videotype.ttf') format('truetype');
+  }
 /* Style the body with a background color or image if desired */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+h1{
+    font-family: 'CustomFont2', sans-serif;
+    color: rgb(117, 27, 27);
     text-align: center;
-    padding: 20px;
+    padding: 24px;
 }
 
 /* Style the title of your story */
 .title {
-    font-size: 24px;
+    color: rgb(255, 0, 0);
+    font-family: 'CustomFont', sans-serif;
+    font-size: 50px;
     font-weight: bold;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 /* Style the story opening container */
 .story-opening {
-    background-color: #fff;
-    border: 1px solid #ccc;
+    background-color: #000000;
+    border: 1px solid #4b0000;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -43,9 +53,28 @@ body {
 
 /* Style the story image */
 .story-opening img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 10px;
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.option-one-screen img {
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.option-two-screen img {
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 /* Style the story opening message */
@@ -57,15 +86,18 @@ body {
 /* Style the buttons container */
 .buttons {
     margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'CustomFont2', sans-serif;
 }
-
 /* Style the option buttons */
 button {
     font-size: 16px;
     padding: 10px 20px;
     margin: 10px;
-    background-color: #007bff;
-    color: #fff;
+    background-color: #000000;
+    color: #ff0000;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -73,7 +105,7 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #570000;
 }
 
 /* Style the screens for option one and option two */
@@ -81,8 +113,8 @@ button:hover {
 .option-two-screen,
 .option-one-end,
 .option-two-end {
-    background-color: #fff;
-    border: 1px solid #ccc;
+    background-color: #000000;
+    border: 1px solid #000000;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -106,4 +138,21 @@ button:hover {
 .option-two-end h1 {
     font-size: 20px;
     margin-bottom: 20px;
+}
+.option-one-screen img,
+.option-two-screen img,
+.option-one-end img,
+.option-two-end img {
+    display: none; /* The image will be hidden and take up no space */
+}
+.option-one-screen h1,
+.option-two-screen h1,
+.option-one-end h1,
+.option-two-end h1 {
+    display: none; /* The image will be hidden and take up no space */
+}
+.option-two,
+.option-three,
+.option-four {
+    display: none; /* The image will be hidden and take up no space */
 }
