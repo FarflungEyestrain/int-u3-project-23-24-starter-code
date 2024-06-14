@@ -5,13 +5,17 @@ let image3Button = document.querySelector('.option-three');
 let image4Button = document.querySelector('.option-four');
 let image5Button = document.querySelector('.option-five');
 let image6Button = document.querySelector('.option-six');
+let image7Button = document.querySelector('.option-seven');
+let image8Button = document.querySelector('.option-eight');
+let image9Button = document.querySelector('.option-nine');
 let screenOne = document.querySelector('.story-opening');
 let screenTwo = document.querySelector('.option-one-screen');
 let screenThree = document.querySelector('.option-two-screen');
 let screenFour = document.querySelector('.option-three-screen');
 let screenFive = document.querySelector('.option-four-screen');
-let screenSix = document.querySelector('.option-five-screen');
+let screenSix = document.querySelector('.option-five-end');
 let screenSeven = document.querySelector('.option-six-screen');
+let screenNine = document.querySelector('.option-eight-screen');
 
 
 
@@ -47,15 +51,18 @@ image3Button.addEventListener('click', function(){
 image4Button.addEventListener('click', function(){
     image4Button.style.display = "none";
     image5Button.style.display = "none";
+    image6Button.style.display = "block";
+    image7Button.style.display = "block";
     screenFive.style.display = "block";
     screenFour.style.display = "none";
 });
 
 image5Button.addEventListener('click', function(){
-    image4Button.style.display = "none";
-    image5Button.style.display = "none";
+    image6Button.style.display = "none";
+    image7Button.style.display = "none";
     screenSix.style.display = "block";
     screenFive.style.display = "none";
+    screenFour.style.display = "none";
 });
 
 image6Button.addEventListener('click', function(){
