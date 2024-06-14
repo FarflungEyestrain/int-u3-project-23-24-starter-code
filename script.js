@@ -107,7 +107,7 @@ image11Button.addEventListener('click', function(){ //Nineth page-- Goes back to
     screenEight.style.display = "none";
     screenSeven.style.display = "block";
 });
-image10Button.addEventListener('click', function(){ //Tenth page
+image12Button.addEventListener('click', function(){ //Tenth page
     image16Button.style.display = "block";
     image15Button.style.display = "block";
     image14Button.style.display = "block";
@@ -116,3 +116,4 @@ image10Button.addEventListener('click', function(){ //Tenth page
     screenNine.style.display = "none";
     screenTen.style.display = "block";
 });
+
