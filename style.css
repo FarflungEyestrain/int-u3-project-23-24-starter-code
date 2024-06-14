@@ -6,8 +6,7 @@
 .option-three-screen, 
 .option-four-screen,
 .option-five-end,
-.option-six-screen,
-.option-eight-screen  {
+.option-six-screen  {
    display:none;
 }
 
@@ -113,7 +112,7 @@ h1 {
 }
 
 .option-six-screen img {
-    width: 400px;
+    width: 250px;
     height: 300px;
     margin: auto;
     display: flex;
@@ -163,7 +162,7 @@ button:hover {
 .option-three-screen,
 .option-four-screen,
 .option-five-end,
-.option-eight-screen {
+.option-six-screen {
     background-color: #000000;
     border: 1px solid #000000;
     padding: 20px;

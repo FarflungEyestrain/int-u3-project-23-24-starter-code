@@ -15,7 +15,6 @@ let screenFour = document.querySelector('.option-three-screen');
 let screenFive = document.querySelector('.option-four-screen');
 let screenSix = document.querySelector('.option-five-end');
 let screenSeven = document.querySelector('.option-six-screen');
-let screenNine = document.querySelector('.option-eight-screen');
 
 
 
