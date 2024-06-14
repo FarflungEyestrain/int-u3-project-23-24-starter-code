@@ -60,14 +60,16 @@ image4Button.addEventListener('click', function(){
 image5Button.addEventListener('click', function(){
     image6Button.style.display = "none";
     image7Button.style.display = "none";
+    image4Button.style.display = "none";
+    image5Button.style.display = "none";
     screenSix.style.display = "block";
     screenFive.style.display = "none";
     screenFour.style.display = "none";
 });
 
 image6Button.addEventListener('click', function(){
-    image4Button.style.display = "none";
-    image6Button.style.display = "block"
+    image9Button.style.display = "block";
+    image8Button.style.display = "block"
     screenFive.style.display = "none";
     screenSeven.style.display = "block";
 });
