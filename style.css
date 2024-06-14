@@ -6,7 +6,8 @@
 .option-three-screen, 
 .option-four-screen,
 .option-five-end,
-.option-six-screen  {
+.option-six-screen,
+.option-seven-screen  {
    display:none;
 }
 
@@ -120,6 +121,14 @@ h1 {
     justify-content: center;
 }
 
+.option-seven-screen img {
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 /* Style the story opening message */
 .story-opening h1 {
     font-size: 20px;
@@ -157,12 +166,17 @@ button:hover {
 }
 
 /* Style the screens for option one and option two */
-.option-one-screen,
-.option-two-screen,
-.option-three-screen,
-.option-four-screen,
-.option-five-end,
-.option-six-screen {
+.option-one,
+.option-one-b,
+.option-two-a,
+.option-three-a,
+.option-three-b,
+.option-four-a,
+.option-four-b,
+.option-six-a,
+.option-six-b,
+.option-seven-a,
+.option-seven-b {
     background-color: #000000;
     border: 1px solid #000000;
     padding: 20px;
@@ -176,7 +190,8 @@ button:hover {
 .option-two-screen img,
 .option-three-screen img,
 .option-four-screen img,
-.option-six-screen img {
+.option-six-screen img,
+.option-seven-screen img {
     max-width: 100%;
     height: auto;
     margin-bottom: 10px;
@@ -188,18 +203,21 @@ button:hover {
 .option-three-screen h1,
 .option-four-screen h1,
 .option-five-screen h1,
-.option-six-screen h1 {
+.option-six-screen h1,
+.option-seven-screen h1 {
     font-size: 20px;
     margin-bottom: 20px;
 }
 
-.option-two,
-.option-three,
-.option-four,
-.option-five,
-.option-six,
-.option-seven,
-.option-eight,
-.option-nine {
+.option-one-b,
+.option-two-a,
+.option-three-a,
+.option-three-b,
+.option-four-a,
+.option-four-b,
+.option-six-a,
+.option-six-b,
+.option-seven-a,
+.option-seven-b {
     display: none; /* The image will be hidden and take up no space */
 }

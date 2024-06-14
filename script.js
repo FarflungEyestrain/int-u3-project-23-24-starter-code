@@ -1,13 +1,15 @@
 // Declare variables below to save the different divs of your story.
 let image1Button = document.querySelector('.option-one');
-let image2Button = document.querySelector('.option-two');
-let image3Button = document.querySelector('.option-three');
-let image4Button = document.querySelector('.option-four');
-let image5Button = document.querySelector('.option-five');
-let image6Button = document.querySelector('.option-six');
-let image7Button = document.querySelector('.option-seven');
-let image8Button = document.querySelector('.option-eight');
-let image9Button = document.querySelector('.option-nine');
+let image2Button = document.querySelector('.option-one-b');
+let image3Button = document.querySelector('.option-two-a');
+let image4Button = document.querySelector('.option-three-a');
+let image5Button = document.querySelector('.option-three-b');
+let image6Button = document.querySelector('.option-four-a');
+let image7Button = document.querySelector('.option-four-b');
+let image8Button = document.querySelector('.option-six-a');
+let image9Button = document.querySelector('.option-six-b');
+let image10Button = document.querySelector('.option-seven-a');
+let image11Button = document.querySelector('.option-seven-b');
 let screenOne = document.querySelector('.story-opening');
 let screenTwo = document.querySelector('.option-one-screen');
 let screenThree = document.querySelector('.option-two-screen');
@@ -15,6 +17,7 @@ let screenFour = document.querySelector('.option-three-screen');
 let screenFive = document.querySelector('.option-four-screen');
 let screenSix = document.querySelector('.option-five-end');
 let screenSeven = document.querySelector('.option-six-screen');
+let screenEight = document.querySelector('.option-seven-screen');
 
 
 
@@ -68,7 +71,17 @@ image5Button.addEventListener('click', function(){
 
 image6Button.addEventListener('click', function(){
     image9Button.style.display = "block";
-    image8Button.style.display = "block"
+    image8Button.style.display = "block";
     screenFive.style.display = "none";
     screenSeven.style.display = "block";
 });
+
+image8Button.addEventListener('click', function(){
+    image11Button.style.display = "block";
+    image10Button.style.display = "block";
+    image9Button.style.display = "none";
+    image8Button.style.display = "none";
+    screenSeven.style.display = "none";
+    screenEight.style.display = "block";
+});
+
